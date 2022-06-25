@@ -18,6 +18,7 @@ h2 {
     font-size: 2.5rem; 
     font-weight: bold;
     color: #66bfbf;
+    margin-bottom: 70px;
 }
 
 h3 {
@@ -27,6 +28,11 @@ h3 {
 
 .profile-picture {
     width: 15%;
+}
+
+.intro {
+    width: 485px;
+    margin: auto;
 }
 
 .top {
@@ -43,16 +49,25 @@ h3 {
     line-height: 2;
 }
 
+.desk {
+    width: 20%;
+    opacity: 0.5;
+}
+
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    width: 15%;
+    left: 120px;
+    bottom: 400px;
+    opacity: 0.5;
 }
 
 .top-cloud {
     position: absolute;
-    top: 50px;
-    right: 300px;
+    width: 15%;
+    right: 120px;
+    bottom: 400px;
+    opacity: 0.5;
 }
 
 .skills {
@@ -79,7 +94,7 @@ h3 {
 }
 
 .button {
-    margin: 30px;
+    margin: 50px;
 }
 
 .btn {
@@ -92,7 +107,7 @@ h3 {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -118,6 +133,7 @@ h3 {
     border: 6px dotted;
     border-top: none;
     width: 30px;
+    margin: 100px auto;
 }
 
 .bottom {
@@ -136,6 +152,13 @@ h3 {
     margin: auto 20px;
 }
 
+.footer-link:hover {
+    color: #eaf6f6;
+}
+
 .copyright {
     color: #eaf6f6;
+    font-size: 0.75rem;
+    font-weight: normal;
+    padding: 20px;
 }
